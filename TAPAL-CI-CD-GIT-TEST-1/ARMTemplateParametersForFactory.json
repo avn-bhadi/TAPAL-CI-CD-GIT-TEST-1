@@ -4,6 +4,21 @@
 	"parameters": {
 		"factoryName": {
 			"value": "TAPAL-CI-CD-GIT-TEST-1"
+		},
+		"AzureDataExplorer1_servicePrincipalKey": {
+			"value": ""
+		},
+		"AzureDataExplorer1_properties_typeProperties_endpoint": {
+			"value": "https://pocadx2.southeastasia.kusto.windows.net"
+		},
+		"AzureDataExplorer1_properties_typeProperties_tenant": {
+			"value": "0f34cb0d-38ea-428d-8114-6486d17b9df5"
+		},
+		"AzureDataExplorer1_properties_typeProperties_servicePrincipalId": {
+			"value": "1813de48-2733-4220-ab74-7804859f8fb6"
+		},
+		"AzureDataExplorer1_properties_typeProperties_database": {
+			"value": "tapaltea_719"
 		}
 	}
 }

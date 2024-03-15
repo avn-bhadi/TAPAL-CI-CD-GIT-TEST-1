@@ -7,6 +7,26 @@
 			"metadata": "Data Factory name",
 			"defaultValue": "TAPAL-CI-CD-GIT-TEST-1"
 		},
+		"AzureDataExplorer1_servicePrincipalKey": {
+			"type": "secureString",
+			"metadata": "Secure string for 'servicePrincipalKey' of 'AzureDataExplorer1'"
+		},
+		"AzureDataExplorer1_properties_typeProperties_endpoint": {
+			"type": "string",
+			"defaultValue": "https://pocadx2.southeastasia.kusto.windows.net"
+		},
+		"AzureDataExplorer1_properties_typeProperties_tenant": {
+			"type": "string",
+			"defaultValue": "0f34cb0d-38ea-428d-8114-6486d17b9df5"
+		},
+		"AzureDataExplorer1_properties_typeProperties_servicePrincipalId": {
+			"type": "string",
+			"defaultValue": "1813de48-2733-4220-ab74-7804859f8fb6"
+		},
+		"AzureDataExplorer1_properties_typeProperties_database": {
+			"type": "string",
+			"defaultValue": "tapaltea_719"
+		},
 		"containerUri": {
 			"type": "string",
 			"metadata": "URI to storage account containing linked ARM templates"
@@ -33,6 +53,21 @@
 				"parameters": {
 					"factoryName": {
 						"value": "[parameters('factoryName')]"
+					},
+					"AzureDataExplorer1_servicePrincipalKey": {
+						"value": "[parameters('AzureDataExplorer1_servicePrincipalKey')]"
+					},
+					"AzureDataExplorer1_properties_typeProperties_endpoint": {
+						"value": "[parameters('AzureDataExplorer1_properties_typeProperties_endpoint')]"
+					},
+					"AzureDataExplorer1_properties_typeProperties_tenant": {
+						"value": "[parameters('AzureDataExplorer1_properties_typeProperties_tenant')]"
+					},
+					"AzureDataExplorer1_properties_typeProperties_servicePrincipalId": {
+						"value": "[parameters('AzureDataExplorer1_properties_typeProperties_servicePrincipalId')]"
+					},
+					"AzureDataExplorer1_properties_typeProperties_database": {
+						"value": "[parameters('AzureDataExplorer1_properties_typeProperties_database')]"
 					}
 				}
 			},
