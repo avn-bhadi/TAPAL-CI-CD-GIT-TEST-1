@@ -1,0 +1,120 @@
+{
+	"name": "AzureDataExplorerTable1",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureDataExplorer1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureDataExplorerTable",
+		"schema": [
+			{
+				"name": "Order",
+				"type": "long"
+			},
+			{
+				"name": "SchedStartDat",
+				"type": "datetime"
+			},
+			{
+				"name": "SchedFinishDat",
+				"type": "datetime"
+			},
+			{
+				"name": "ActualStartDat",
+				"type": "datetime"
+			},
+			{
+				"name": "ActualFinishDat",
+				"type": "datetime"
+			},
+			{
+				"name": "SchedStartTime",
+				"type": "timespan"
+			},
+			{
+				"name": "SchedFinishTime",
+				"type": "timespan"
+			},
+			{
+				"name": "ActualStartTime",
+				"type": "timespan"
+			},
+			{
+				"name": "ActualFinishTime",
+				"type": "timespan"
+			},
+			{
+				"name": "TargetQty",
+				"type": "real"
+			},
+			{
+				"name": "BaseUoM",
+				"type": "string"
+			},
+			{
+				"name": "Material",
+				"type": "dynamic"
+			},
+			{
+				"name": "PlanNoFOper",
+				"type": "long"
+			},
+			{
+				"name": "UoM",
+				"type": "string"
+			},
+			{
+				"name": "BaseQty",
+				"type": "real"
+			},
+			{
+				"name": "StdValueUnit",
+				"type": "string"
+			},
+			{
+				"name": "StandardValue",
+				"type": "long"
+			},
+			{
+				"name": "Plant",
+				"type": "long"
+			},
+			{
+				"name": "WorkCenter",
+				"type": "string"
+			},
+			{
+				"name": "BaseUnit",
+				"type": "string"
+			},
+			{
+				"name": "Desc",
+				"type": "string"
+			},
+			{
+				"name": "CreatedOn",
+				"type": "datetime"
+			},
+			{
+				"name": "CreatedAt",
+				"type": "timespan"
+			},
+			{
+				"name": "ChangedOn",
+				"type": "datetime"
+			},
+			{
+				"name": "ChangedAt",
+				"type": "timespan"
+			},
+			{
+				"name": "DeletionFlag",
+				"type": "bool"
+			}
+		],
+		"typeProperties": {
+			"table": "KHI_SAP_Data_Test"
+		}
+	}
+}
