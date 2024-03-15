@@ -1,0 +1,9 @@
+{
+	"name": "TAPAL-CI-CD-GIT-TEST-1",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "58c7cbd2-b0f5-453e-bf78-8f299d042ad6",
+		"tenantId": "0f34cb0d-38ea-428d-8114-6486d17b9df5"
+	}
+}
